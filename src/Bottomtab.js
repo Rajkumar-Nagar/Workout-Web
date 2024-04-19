@@ -7,7 +7,7 @@ function Bottomtab() {
 
             <div className='LeftPart flex gap-10'>
                 <Link to={"/WorkOutTracker"}>
-                    <img src="vector300.png" className='h-[27px] w-[27px]' alt="reload" />
+                    <img src="Vector300.png" className='h-[27px] w-[27px]' alt="reload" />
                 </Link>
                 <Link to={"/WorkOutSchedual"}>
                     <img src="Group3.png" className='h-[27px] w-[27px]' alt="reload" />
