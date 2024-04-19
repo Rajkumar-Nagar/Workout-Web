@@ -49,10 +49,10 @@ function WorkOutSchedual() {
     return (
         <div className='flex flex-col h-full maincontainer px-5 relative overflow-hidden'>
             <div className='flex items-center gap-4 mt-5'>
-                <div className='w-[22px] h-[22px] rounded-[3px] bg-[#F1F1F1] flex justify-center items-center'>
+                <Link to="/WorkOutTracker" className='w-[22px] h-[22px] rounded-[3px] bg-[#F1F1F1] flex justify-center items-center'>
                     <img src="/Vector32.png" width={8} height={10} alt="" />
 
-                </div>
+                </Link>
                 <h1 className='text-[20px] text-[#2C2B2B] font-[600]'>Workout Schedule</h1>
             </div>
 
